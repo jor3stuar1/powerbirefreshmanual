@@ -7,14 +7,14 @@ Installation
 Install using `pip`
 
 ```
-pip install pbixrefresher
+pip install powerbirefreshmanual
 pip install pypiwin32
 ```
 
 Usage
 -----
 ```
-pbixrefresher <WORKBOOK> [-workspace <WORKSPACE>]
+powerbirefreshmanual <WORKBOOK> [-workspace <WORKSPACE>]
 
 where <WORKBOOK> is path to .pbix file
       <WORKSPACE> is name of online Power BI service work space to publish in. Default is My workspace
@@ -29,7 +29,7 @@ Please keep in mind that this script uses GUI of Power BI Desktop and it needs t
 3. Fill a Name and click Next
 4. Set a trigger and click Next
 5. Pick Start a program as an action and click Next
-6. in Program/script type absolute path to pbixrefresher.exe in your scripts folder in Python installation path (for example "C:\ProgramData\Anaconda3\Scripts\pbixrefresher.exe")
+6. in Program/script type absolute path to powerbirefreshmanual.exe in your scripts folder in Python installation path (for example "C:\ProgramData\Anaconda3\Scripts\powerbirefreshmanual.exe")
    in Arguments type file name of the workbook (for example "sample.pbix")   
    in Start in type absolute path workbook (for example "C:\workbooks\")
 7. Confirm and Finish
